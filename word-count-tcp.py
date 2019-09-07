@@ -12,7 +12,7 @@ host = sys.argv[1]
 port = int(sys.argv[2])
 
 # SparkSession を作る
-park = SparkSession\
+spark = SparkSession\
             .builder\
             .appName("StructuredNetworkWordCount")\
             .getOrCreate()
